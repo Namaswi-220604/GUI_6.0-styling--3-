@@ -1,0 +1,42 @@
+.bg-orange {
+  border-color: rgb(255, 115, 0) !important;
+}
+
+.bg-red {
+  border-color: rgb(153, 0, 0) !important;
+}
+
+.bg-green {
+  border-color: green !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(3, 40px);
+  align-items: center;
+  justify-content: center;
+}
+
+.bms-cell {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  color: white;
+  background-color: #222222;
+  border: 3px solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bms-cell:hover {
+  transform: scale(1.05) translateX(2px) translateY(-1px);
+  background-color: #111111;
+  transition: all 0.2s ease-in-out;
+}
